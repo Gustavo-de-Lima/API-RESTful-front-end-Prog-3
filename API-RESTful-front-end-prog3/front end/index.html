@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="./script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form >
+        Client
+        <br><br>Name: <input type="text" id="name">
+        <br>LastName: <input type="text" id="lastname">
+        <br>Document: <input type="text" id="document">
+    </form>
+    <br>
+    <button onclick="postClient()">Create</button>
+    <button onclick="getClient()">Refresh</button>
+
+    <br/>
+
+    <table>
+        <tr id="client"></tr>
+    </table>
+</body>
+
+</html>
